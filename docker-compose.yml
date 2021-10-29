@@ -1,5 +1,5 @@
 proxy:
-        image: identiproxy:0.1
+        image: wayngarten/identiproxy:0.1
         links:
                 - identidock
         ports:
