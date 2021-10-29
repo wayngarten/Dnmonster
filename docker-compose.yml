@@ -1,3 +1,9 @@
+proxy:
+        image: identiproxy:0.1
+        links:
+                - identidock
+        ports:
+         - "80:80"        
 identidock:
         build: .
         ports:
